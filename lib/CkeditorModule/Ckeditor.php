@@ -12,7 +12,7 @@ class CkeditorModule_Ckeditor implements Knowledgeroot_Rte_Interface {
 	public function show($content) {
 	    $res = "";
 	    $res .= '<script src="./module/ckeditor/ckeditor/ckeditor.js"></script>';
-	    $res .= '<textarea name="content">'.$content.'</textarea>';
+	    $res .= '<textarea name="content">'.htmlspecialchars($content).'</textarea>';
 	    $res .= "<script>CKEDITOR.replace('content');</script>";
 
 	    return $res;
