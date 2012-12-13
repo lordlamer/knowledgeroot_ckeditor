@@ -3,7 +3,7 @@
 /**
  * ckeditor class
  */
-class CkeditorModule_Ckeditor extends Knowledgeroot_Rte_Abstract {
+class Ckeditor extends Knowledgeroot_Rte_Abstract {
 	/**
 	 * show editor with content
 	 *

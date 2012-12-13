@@ -1,3 +1,6 @@
+20121213 - fhabermann
+* using namespace option for easier structure
+
 20121206 - fhabermann
 * using abstract rte class for ckeditor
 

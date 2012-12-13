@@ -1,7 +1,7 @@
 <?php
 
 /**
- * akismet module initialisation
+ * ckeditor module initialisation
  */
 class CkeditorModule implements Knowledgeroot_Module_Interface {
 	/**
